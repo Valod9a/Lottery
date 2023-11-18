@@ -8,8 +8,8 @@ public class Main {
             {1, 2, 3, 4},
             {5, 6, 7, 8},
             {9, 10, 11, 12},
-            {13, 14, 15, 16}};
-
+            {13, 14, 15, 16}
+    };
     public static void main(String[] args) {
         outputList();
         outputResult(input(), randomNum(Numbers));
@@ -41,7 +41,7 @@ public class Main {
     public static void outputList(){
         for (int[] row: Numbers){
             for(int column: row){
-                if (column == row.length - 1) {
+                if (column == Numbers[Numbers.length-1][row.length-1]) {
                     System.out.printf("%d.", column);
                     break;
                 }
