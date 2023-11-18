@@ -45,7 +45,7 @@ public class Main {
                     System.out.printf("%d.", column);
                     break;
                 }
-                System.out.printf("%d, ", column);
+                System.out.printf("%d,\t", column);
             }
             System.out.println();
         }
